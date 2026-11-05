@@ -8,8 +8,11 @@ toucher les deux.
 - `nmr-corporate-api/` : FastAPI, PostgreSQL, Alembic, Docker Compose
 - `nmr-corporate-web/` : React 18, Vite, Tailwind v4
 
-Ce dossier parent n'est pas un dépôt git. Chaque dépôt se commite séparément.
-Un changement qui touche les deux donne deux commits avec le même intitulé.
+Ce dossier parent est un troisième dépôt git, sans remote, qui ne porte que le
+contexte partagé : ce `CLAUDE.md` et le `.gitignore`. Il ignore les deux
+dépôts applicatifs, qui restent indépendants et se commitent chacun
+séparément. Un changement qui touche l'API et le front donne deux commits
+avec le même intitulé. Une modification de ce fichier se commite ici, à part.
 
 ## Métier
 
