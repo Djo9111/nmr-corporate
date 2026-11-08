@@ -50,8 +50,9 @@ Elles ont été posées une fois et valent pour tout le projet.
    serveur CDS sert en HTTP simple.
 3. Les tests sont automatisés avec pytest. Pas de vérification manuelle au
    curl ou via Swagger.
-4. Les écrans reproduisent la disposition des états papier que les
-   utilisateurs connaissent déjà, pour qu'ils ne soient pas désorientés.
+4. Les écrans servent la lisibilité : prise d'information et prise de
+   décision rapides, pour des utilisateurs qui ne sont pas informaticiens.
+   Un état papier connu peut guider la disposition, il n'est pas obligatoire.
    L'interface reste sobre et professionnelle.
 5. Diagnostiquer la cause racine avant de corriger. Un symptôme corrigé sans
    cause comprise revient.
